@@ -1,0 +1,19 @@
+spring:
+datasource:
+driverClassName: com.mysql.jdbc.Driver
+url : jdbc:mysql://localhost:3306/SQLJAVA?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+
+username: root
+password: Omnaons123
+jpa:
+hibernate.ddl-auto: create
+generate-ddl: true
+show-sql: true
+  src
+  -main
+--base package: com.project
+  ---controller
+  ---entity
+  ---repository
+  -service
+
